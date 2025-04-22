@@ -6,6 +6,26 @@ body {
 
 #form {
     margin: 20px;
+    
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 #gallery {
@@ -18,7 +38,7 @@ body {
 
 .card {
     position: relative;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border-radius: 10px;
     background-color: #fff;
@@ -48,7 +68,7 @@ body {
     color: white;
     border: none;
     border-radius: 50%;
-    width: 22px;
-    height: 22px;
+    
     cursor: pointer;
+    padding: 10px;
 }

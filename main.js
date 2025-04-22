@@ -26,17 +26,18 @@ botonAgregar.addEventListener("click", () => {
 galeria.addEventListener("click", (e) => {
   if (e.target.classList.contains("remove-btn")) {
     e.target.parentElement.remove();
-  } else if (e.target.tagName === "IMG") {
+  }
+});
+
+galeria.addEventListener("dblclick", (e) => {
+  if (e.target.tagName === "IMG") {
     const nuevaURL = prompt("Ingrese la nueva URL de la imagen:");
     if (nuevaURL) {
       const nuevaImagen = document.createElement("img");
       nuevaImagen.src = nuevaURL;
       nuevaImagen.alt = e.target.alt;
 
-      // Reemplazar imagen con animación
       nuevaImagen.animate([
-        { opacity: 0, transform: "scale(0.8)" },
-        { opacity: 1, transform: "scale(1)" }
       ], {
         duration: 300,
         easing: "ease-out"
@@ -46,6 +47,7 @@ galeria.addEventListener("click", (e) => {
     }
   }
 });
+
 
 // Animación al pasar el mouse
 galeria.addEventListener("mouseenter", (e) => {
