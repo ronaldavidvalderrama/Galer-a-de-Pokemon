@@ -68,7 +68,6 @@ button {
     color: white;
     border: none;
     border-radius: 50%;
-    
     cursor: pointer;
-    padding: 10px;
+    padding: 6px;
 }

@@ -4,7 +4,8 @@ Una mini galería interactiva donde podés agregar tarjetas de Pokémon con su n
 
 ## 📸 Demo
 
-(Agregá una captura de pantalla aquí si querés)
+![alt text](image.png)
+
 
 ## 🚀 Funcionalidades
 
